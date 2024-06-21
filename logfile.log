@@ -1,0 +1,12 @@
+::1:50131 - "GET /tables?username=root&password=root&host=127.0.0.1&database=icbc_tools HTTP/1.1" 200
+::1:50131 - "GET /tables?username=root&password=root&host=127.0.0.1&database=icbc_tools HTTP/1.1" 200
+::1:54755 - "GET /tables?username=root&password=root&host=127.0.0.1&database=icbc-tools HTTP/1.1" 500
+::1:54755 - "GET /tables?username=root&password=root&host=127.0.0.1&database=icbc-tools HTTP/1.1" 500
+::1:54777 - "GET /tables?username=root&password=root&host=127.0.0.1&database=icbc_tools HTTP/1.1" 200
+::1:54777 - "GET /table_columns?username=root&password=root&host=127.0.0.1&database=icbc_tools&table_name=company_contributory HTTP/1.1" 200
+::1:54777 - "GET /table_summary?username=root&password=root&host=127.0.0.1&database=icbc_tools&table_name=company_contributory HTTP/1.1" 200
+::1:54793 - "GET /table_columns?username=root&password=root&host=127.0.0.1&database=icbc_tools&table_name=company_contributory HTTP/1.1" 200
+::1:54793 - "GET /table_columns?username=root&password=root&host=127.0.0.1&database=icbc_tools&table_name=company_contributory HTTP/1.1" 200
+::1:54801 - "GET /table_detect?username=root&password=root&host=127.0.0.1&database=icbc_tools&SQL=SELECT+id,+company_name,+data_period,+contributory_base_total,+contributory_base_averaged,+last_modify_date+FROM+company_contributory HTTP/1.1" 200
+::1:57289 - "GET /table_columns?username=root&password=root&host=127.0.0.1&database=icbc_tools&table_name=company_contributory HTTP/1.1" 200
+::1:57295 - "GET /distribution_detect?username=root&password=root&host=127.0.0.1&database=icbc_tools&SQL=SELECT+id,+company_name,+data_period,+contributory_base_total,+contributory_base_averaged,+last_modify_date+FROM+company_contributory&dateField=last_modify_date HTTP/1.1" 200
